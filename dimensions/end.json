@@ -1,0 +1,83 @@
+{
+    "postProcessing": true,
+    "bedrock": false,
+    "rockPalette": {
+        "palette": [
+            {
+                "block": "end_stone"
+            }
+        ]
+    },
+    "postProcessCaves": false,
+    "continentalStyle": {
+        "style": "SIMPLEX_VASCULAR",
+        "zoom": 8
+    },
+    "environment": "THE_END",
+    "regions": [
+        "end-region"
+    ],
+    "fluidPalette": {
+        "palette": [
+            {
+                "block": "air"
+            }
+        ]
+    },
+    "carveLayers": [
+        {
+            "fullPercent": 0.1,
+            "maxHeight": 128,
+            "minHeight": -128,
+            "style": {
+                "style": "PERLIN_IRIS_THICK",
+                "zoom": 1.05,
+                "exponent": 1.5,
+                "fracture": {
+                    "style": "BIOCTAVE_SIMPLEX",
+                    "zoom": 1.1,
+                    "exponent": 1
+                }
+
+            },
+            "threshold": 0.4
+        },
+        {
+            "style": {
+                "style": "SIMPLEX",
+                "zoom": 0.85,
+                "fracture": {
+                    "style": "BIOCTAVE_SIMPLEX"
+                }
+            },
+            "fullPercent": 0.8,
+            "threshold": 0.3,
+            "maxHeight": 128,
+            "minHeight": -128
+        },
+        {
+            "style": {
+                "style": "FRACTAL_BILLOW_SIMPLEX",
+                "zoom": 1.8,
+                "fracture": {
+                    "style": "BIOCTAVE_SIMPLEX",
+                    "zoom": 1.15
+                }
+            },
+            "fullPercent": 0.2,
+            "threshold": 0.5,
+            "maxHeight": 256,
+            "minHeight": -128
+        }
+    ],
+    "landChance": 0.6,
+    "caves": false,
+    "regionZoom": 10,
+    "biomeZoom": 20,
+    "continentZoom": 4,
+    "name": "End",
+    "fluidHeight": 63,
+    "carving": true,
+    "Nipple-Remover": true,
+    "version": 1
+}

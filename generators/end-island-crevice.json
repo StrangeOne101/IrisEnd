@@ -1,0 +1,18 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_9",
+        "horizontalScale": 10
+    },
+    "seed": 124996,
+    "composite": [
+        {
+            "seed": 123,
+            "style": {
+                "style": "PERLIN_IRIS_THICK",
+                "zoom": 1.85
+            },
+            "offsetY": -1
+        }
+    ]
+
+}

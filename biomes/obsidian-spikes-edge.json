@@ -1,0 +1,80 @@
+{
+    "name": "Obsidian Spikes Edge",
+    "derivative": "THE_END",
+    "vanillaDerivative": "THE_END",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "obsidian",
+                    "weight": 74
+                },
+                {
+                    "block": "crying_obsidian",
+                    "weight": 1
+                }
+            ],
+            "minHeight": 20,
+            "maxHeight": 20,
+            "slopeCondition": {
+                "minimumSlope": 0.5,
+                "maximumSlope": 255
+            },
+            "style": {
+                "style": "STATIC",
+                "zoom": 0.08
+            }
+        },
+        {
+            "palette": [
+                {
+                    "block": "end_stone"
+                }
+            ],
+            "minHeight": 1,
+            "maxHeight": 4,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 0.5
+            }
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.02,
+            "palette": [
+                {
+                    "block": "end_rod",
+                    "data": {
+                        "facing": "up"
+                    }
+                }
+            ],
+            "zoom": 0.2,
+            "verticalZoom": 3
+        }
+    ],
+    "generators": [
+        {
+            "generator": "spikes",
+            "max": 30,
+            "min": -20
+        }
+    ],
+    "deposits": [
+        {
+            "palette": [
+                {
+                    "block": "end_stone"
+                }
+            ],
+            "maxPerChunk": 10,
+            "maxSize": 32,
+            "minSize": 10,
+            "varience": 1,
+            "minPerChunk": 5,
+            "minHeight": 18,
+            "maxHeight": 180
+        }
+    ]
+}

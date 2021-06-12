@@ -1,0 +1,71 @@
+{
+    "name": "Outter End",
+    "derivative": "THE_END",
+    "vanillaDerivative": "THE_END",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "end_stone"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 1,
+            "density": 3,
+            "place": [
+                "chorus/plant-1",
+                "chorus/plant-2",
+                "chorus/plant-3",
+                "chorus/plant-4",
+                "chorus/plant-5",
+                "chorus/plant-6",
+                "chorus/plant-7",
+                "chorus/plant-8",
+                "chorus/plant-9",
+                "chorus/plant-10",
+                "chorus/plant-11"
+            ],
+            "bottom": true,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "max": 360,
+                    "min": 0
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "translate": {
+                "y": 1
+            },
+            "onwater": false
+        }
+    ],
+    "generators": [
+        {
+            "generator": "end-island",
+            "max": 15,
+            "min": 0
+        }
+    ],
+    "deposits": [
+        {
+            "palette": [
+                {
+                    "block": "purple_stained_glass"
+                }
+            ],
+            "maxPerChunk": 3,
+            "maxSize": 32,
+            "minSize": 10,
+            "varience": 1,
+            "minPerChunk": 0,
+            "minHeight": 18,
+            "maxHeight": 70
+        }
+    ]
+}

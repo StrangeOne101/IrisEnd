@@ -1,0 +1,46 @@
+{
+    "name": "End Center",
+    "derivative": "PLAINS",
+    "vanillaDerivative": "THE_END",
+    "layers": [
+        {
+            "palette":
+            [
+                {
+                    "block": "end_stone"
+                },
+                {
+                    "block": "obsidian"
+                }
+            ],
+            "style": {
+                "style": "PERLIN",
+                "zoom": 0.5,
+                "exponent": 3
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "end-island",
+            "max": 15,
+            "min": 0
+        }
+    ],
+    "deposits": [
+        {
+            "palette": [
+                {
+                    "block": "purple_stained_glass"
+                }
+            ],
+            "maxPerChunk": 3,
+            "maxSize": 32,
+            "minSize": 10,
+            "varience": 1,
+            "minPerChunk": 0,
+            "minHeight": 18,
+            "maxHeight": 70
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "The End",
+    "landBiomes": [
+        "end",
+        "end-center",
+        "outter-end",
+        "obsidian-spikes",
+        "end-fog"
+    ],
+    "shoreBiomes": [
+        "void"
+    ],
+    "seaBiomes": [
+        "void"
+    ],
+    "landBiomeZoom": 2,
+    "rivers": true,
+    "riverRarity": 2,
+    "riverThickness": 0.2,
+    "shoreRatio": 0.1
+}

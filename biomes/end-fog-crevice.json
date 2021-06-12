@@ -1,0 +1,115 @@
+{
+    "name": "End Fog Crevice",
+    "derivative": "THE_END",
+    "vanillaDerivative": "THE_END",
+    "lockLayers": false,
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "cave_air"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "purple_stained_glass"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "magenta_stained_glass"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "purple_stained_glass"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "magenta_stained_glass"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "purple_stained_glass"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "pink_concrete"
+                }
+            ],
+            "slopeCondition": {
+                "maximumSlope": 0.5
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "end-island",
+            "max": 15,
+            "min": 0
+        }
+    ],
+    "deposits": [
+        {
+            "palette": [
+                {
+                    "block": "obsidian"
+                }
+            ],
+            "maxPerChunk": 3,
+            "maxSize": 32,
+            "minSize": 10,
+            "varience": 1,
+            "minPerChunk": 0,
+            "minHeight": 18,
+            "maxHeight": 70
+        }
+    ]
+}

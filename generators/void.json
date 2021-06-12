@@ -1,0 +1,19 @@
+{
+    "composite": [
+        {
+            "seed": 1252523,
+            "style": {
+                "style": "FLAT"
+            },
+            "exponent": 100,
+            "negative": true,
+            "offsetY": -64
+
+        }
+    ],
+    "interpolator": {
+        "function": "NONE",
+        "horizontalScale": 3
+    },
+    "seed": 359733
+}
