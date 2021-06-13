@@ -14,28 +14,11 @@
                     "weight": 1
                 }
             ],
-            "minHeight": 20,
-            "maxHeight": 20,
-            "slopeCondition": {
-                "minimumSlope": 0.1,
-                "maximumSlope": 255
-            },
+            "minHeight": 50,
+            "maxHeight": 50,
             "style": {
                 "style": "STATIC",
                 "zoom": 0.08
-            }
-        },
-        {
-            "palette": [
-                {
-                    "block": "end_stone"
-                }
-            ],
-            "minHeight": 1,
-            "maxHeight": 4,
-            "slopeCondition": {
-                "minimumSlope": 0,
-                "maximumSlope": 0.1
             }
         }
     ],
@@ -57,8 +40,8 @@
     "generators": [
         {
             "generator": "spikes",
-            "max": 60,
-            "min": 0
+            "max": 40,
+            "min": 5
         }
     ],
     "deposits": [

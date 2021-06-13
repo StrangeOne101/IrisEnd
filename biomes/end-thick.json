@@ -1,18 +1,7 @@
 {
-    "name": "End Fog",
+    "name": "End Thick",
     "derivative": "THE_END",
     "vanillaDerivative": "THE_END",
-    "children": [
-        "end-fog-crevice"
-    ],
-    "childStyle": {
-        "style": "GLOB",
-        "zoom": 0.5,
-        "exponent": 5,
-        "fracture": {
-            "style": "GLOB_IRIS_THICK"
-        }
-    },
     "layers": [
         {
             "palette":
@@ -23,9 +12,18 @@
             ]
         }
     ],
+    "children": [
+        "end"
+    ],
+    "childStyle": {
+        "style": "BIOCTAVE_SIMPLEX",
+        "zoom": 2.25,
+        "exponent": 1.85
+    },
     "objects": [
         {
-            "chance": 0.5,
+            "chance": 1,
+            "density": 2,
             "place": [
                 "chorus/1x1/1",
                 "chorus/1x1/2"
@@ -50,7 +48,7 @@
         },
         {
             "chance": 1,
-            "density": 2,
+            "density": 8,
             "place": [
                 "chorus/3x3/1",
                 "chorus/3x3/2",
@@ -85,7 +83,7 @@
         },
         {
             "chance": 1,
-            "density": 2,
+            "density": 6,
             "place": [
                 "chorus/5x5/1",
                 "chorus/5x5/2",
@@ -118,7 +116,7 @@
         },
         {
             "chance": 1,
-            "density": 2,
+            "density": 4,
             "place": [
                 "chorus/7x7/1",
                 "chorus/7x7/2",
@@ -156,7 +154,7 @@
             "onwater": false
         },
         {
-            "chance": 0.4,
+            "chance": 0.83,
             "place": [
                 "chorus/9x9/1"
             ],
@@ -178,6 +176,7 @@
             },
             "onwater": false
         }
+
     ],
     "generators": [
         {
@@ -190,7 +189,7 @@
         {
             "palette": [
                 {
-                    "block": "obsidian"
+                    "block": "purple_stained_glass"
                 }
             ],
             "maxPerChunk": 3,

@@ -5,15 +5,19 @@
         "end-center",
         "outter-end",
         "obsidian-spikes",
-        "end-fog"
+        "end-fog",
+        "end-thick"
     ],
     "shoreBiomes": [
-        "void"
+        "void-shore"
     ],
     "seaBiomes": [
         "void"
     ],
-    "landBiomeZoom": 2,
+    "riverBiomes": [
+        "void-river"
+    ],
+    "landBiomeZoom": 4,
     "rivers": true,
     "riverRarity": 2,
     "riverThickness": 0.2,

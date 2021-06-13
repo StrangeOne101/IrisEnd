@@ -19,15 +19,14 @@
             "sound": "ENTITY_ENDERMAN_SCREAM",
             "maxPitch": 0.8,
             "minPitch": 0.7,
-            "soundDistance": 50,
-            "interval": 800000
+            "interval": 80000
         }
     ],
     "generators": [
         {
             "generator": "void",
-            "max": 0,
-            "min": 0
+            "max": 256,
+            "min": -256
         }
     ],
     "rarity": 50

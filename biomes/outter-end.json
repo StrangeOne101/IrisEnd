@@ -13,20 +13,10 @@
     ],
     "objects": [
         {
-            "chance": 1,
-            "density": 3,
+            "chance": 0.5,
             "place": [
-                "chorus/plant-1",
-                "chorus/plant-2",
-                "chorus/plant-3",
-                "chorus/plant-4",
-                "chorus/plant-5",
-                "chorus/plant-6",
-                "chorus/plant-7",
-                "chorus/plant-8",
-                "chorus/plant-9",
-                "chorus/plant-10",
-                "chorus/plant-11"
+                "chorus/1x1/1",
+                "chorus/1x1/2"
             ],
             "bottom": true,
             "rotation": {
@@ -40,7 +30,139 @@
             },
             "mode": "MIN_HEIGHT",
             "translate": {
-                "y": 1
+                "y": 1,
+                "x": 0,
+                "z": 0
+            },
+            "onwater": false
+        },
+        {
+            "chance": 1,
+            "density": 2,
+            "place": [
+                "chorus/3x3/1",
+                "chorus/3x3/2",
+                "chorus/3x3/3",
+                "chorus/3x3/4",
+                "chorus/3x3/5",
+                "chorus/3x3/6",
+                "chorus/3x3/7",
+                "chorus/3x3/8",
+                "chorus/3x3/9",
+                "chorus/3x3/10",
+                "chorus/3x3/11",
+                "chorus/3x3/12"
+            ],
+            "bottom": true,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "max": 360,
+                    "min": 0
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "translate": {
+                "y": 1,
+                "x": -1,
+                "z": -1
+            },
+            "onwater": false
+        },
+        {
+            "chance": 1,
+            "density": 2,
+            "place": [
+                "chorus/5x5/1",
+                "chorus/5x5/2",
+                "chorus/5x5/3",
+                "chorus/5x5/4",
+                "chorus/5x5/5",
+                "chorus/5x5/6",
+                "chorus/5x5/7",
+                "chorus/5x5/8",
+                "chorus/5x5/9",
+                "chorus/5x5/10"
+            ],
+            "bottom": true,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "max": 360,
+                    "min": 0
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "translate": {
+                "y": 1,
+                "x": -2,
+                "z": -2
+            },
+            "onwater": false
+        },
+        {
+            "chance": 1,
+            "density": 2,
+            "place": [
+                "chorus/7x7/1",
+                "chorus/7x7/2",
+                "chorus/7x7/3",
+                "chorus/7x7/4",
+                "chorus/7x7/5",
+                "chorus/7x7/6",
+                "chorus/7x7/7",
+                "chorus/7x7/8",
+                "chorus/7x7/9",
+                "chorus/7x7/10",
+                "chorus/7x7/11",
+                "chorus/7x7/12",
+                "chorus/7x7/13",
+                "chorus/7x7/14",
+                "chorus/7x7/15",
+                "chorus/7x7/16"
+            ],
+            "bottom": true,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "max": 360,
+                    "min": 0
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "translate": {
+                "y": 1,
+                "x": -3,
+                "z": -3
+            },
+            "onwater": false
+        },
+        {
+            "chance": 0.4,
+            "place": [
+                "chorus/9x9/1"
+            ],
+            "bottom": true,
+            "rotation": {
+                "enabled": true,
+                "yAxis": {
+                    "enabled": true,
+                    "interval": 90,
+                    "max": 360,
+                    "min": 0
+                }
+            },
+            "mode": "MIN_HEIGHT",
+            "translate": {
+                "y": 1,
+                "x": -4,
+                "z": -4
             },
             "onwater": false
         }

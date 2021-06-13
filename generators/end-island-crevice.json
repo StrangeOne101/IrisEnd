@@ -13,6 +13,16 @@
             },
             "offsetY": -1
         }
+    ],
+    "effects": [
+        {
+            "chance": 3,
+            "particleEffect": "SPELL_WITCH",
+            "particleAltX": 2,
+            "particleAltY": 2,
+            "particleAltZ": 2,
+            "particleCount": 16,
+            "interval": 5000
+        }
     ]
-
 }

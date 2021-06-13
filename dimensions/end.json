@@ -38,7 +38,6 @@
                     "zoom": 1.1,
                     "exponent": 1
                 }
-
             },
             "threshold": 0.4
         },
@@ -47,7 +46,7 @@
                 "style": "SIMPLEX",
                 "zoom": 0.85,
                 "fracture": {
-                    "style": "BIOCTAVE_SIMPLEX"
+                    "style": "IRIS_THICK"
                 }
             },
             "fullPercent": 0.8,
@@ -57,10 +56,10 @@
         },
         {
             "style": {
-                "style": "FRACTAL_BILLOW_SIMPLEX",
-                "zoom": 1.8,
+                "style": "FRACTAL_BILLOW_PERLIN",
+                "zoom": 1.6,
                 "fracture": {
-                    "style": "BIOCTAVE_SIMPLEX",
+                    "style": "PERLIN_IRIS_DOUBLE",
                     "zoom": 1.15
                 }
             },

@@ -1,22 +1,27 @@
 {
     "name": "End Center",
-    "derivative": "PLAINS",
+    "derivative": "THE_END",
     "vanillaDerivative": "THE_END",
     "layers": [
         {
             "palette":
             [
                 {
-                    "block": "end_stone"
+                    "block": "obsidian"
                 },
                 {
-                    "block": "obsidian"
+                    "block": "end_stone"
                 }
             ],
             "style": {
-                "style": "PERLIN",
-                "zoom": 0.5,
-                "exponent": 3
+                "style": "VASCULAR_THIN",
+                "zoom": 0.004,
+                "exponent": 0.8,
+                "fracture": {
+                    "style": "SIMPLEX",
+                    "zoom": 2,
+                    "exponent": 1
+                }
             }
         }
     ],
@@ -24,7 +29,7 @@
         {
             "generator": "end-island",
             "max": 15,
-            "min": 0
+            "min": -10
         }
     ],
     "deposits": [

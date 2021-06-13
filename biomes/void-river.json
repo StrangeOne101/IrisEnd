@@ -1,0 +1,34 @@
+{
+    "name": "Void (River)",
+    "derivative": "THE_VOID",
+    "vanillaDerivative": "THE_VOID",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "air"
+                }
+            ],
+            "maxHeight": 1,
+            "minHeight": 0
+        }
+    ],
+    "effects": [
+        {
+            "chance": 20,
+            "sound": "ENTITY_ENDERMAN_SCREAM",
+            "maxPitch": 0.8,
+            "minPitch": 0.7,
+            "soundDistance": 50,
+            "interval": 800000
+        }
+    ],
+    "generators": [
+        {
+            "generator": "void",
+            "max": 256,
+            "min": -256
+        }
+    ],
+    "rarity": 50
+}

@@ -7,13 +7,12 @@
             },
             "exponent": 100,
             "negative": true,
-            "offsetY": -64
-
+            "offsetY": 0
         }
     ],
     "interpolator": {
-        "function": "NONE",
-        "horizontalScale": 3
+        "function": "BILINEAR_STARCAST_12",
+        "horizontalScale": 20
     },
     "seed": 359733
 }

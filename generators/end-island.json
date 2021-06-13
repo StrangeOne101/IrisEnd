@@ -9,7 +9,11 @@
             "seed": 123,
             "style": {
                 "style": "PERLIN_IRIS_THICK",
-                "zoom": 1.85
+                "zoom": 0.85,
+                "fracture": {
+                    "style": "OCTOCTAVE_SIMPLEX",
+                    "zoom": 1.5
+                }
             }
         }
     ]
